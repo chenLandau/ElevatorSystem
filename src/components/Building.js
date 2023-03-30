@@ -120,13 +120,13 @@ const Building = (props) => {
 }
 
 export const generateElevators = () => {
-
     const elevators = [
       { id: 0, currentFloor: 0, targerFloor: 0, state: "available" },
       { id: 1, currentFloor: 0, targerFloor: 0, state: "available"},
       { id: 2, currentFloor: 0, targerFloor: 0, state: "available" },
       { id: 3, currentFloor: 0, targerFloor: 0, state: "available" },
       { id: 4, currentFloor: 0, targerFloor: 0, state: "available" }];
+
     return elevators;
   };
 
@@ -142,6 +142,7 @@ export const generateElevators = () => {
       {floorNumber : 7, isArrived : false},
       {floorNumber : 8, isArrived : false},
       {floorNumber : 9, isArrived : false}];
+
     return Floors;
 };
 
