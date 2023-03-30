@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  margin:0;
+  padding: 20;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(215, 215, 215);
+}
+
+
